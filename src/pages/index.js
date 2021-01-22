@@ -11,9 +11,13 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <section className="width-screen">
-      <figure>
-        <img src={OfficeImage} alt="office" className="m-0" />
-        <figcaption class="absolute top-2/4 left-2/4 text-lg text-white">
+      <figure className="m-0">
+        <img
+          src={OfficeImage}
+          alt="office"
+          className="m-0 h-screen sm:h-auto"
+        />
+        <figcaption class="absolute top-2/4 left-2/4 sm:left-3/4 text-lg text-white">
           <div>
             <h1>LAW OFFICE C&L</h1>
           </div>
