@@ -7,9 +7,9 @@ const Lawyer = () => (
       <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
         <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
           <div className="sm:text-center lg:text-left">
-            <h1 className="text-4xl tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-              <span className="text-green-700 xl:inline mr-4">변호사</span>
-              <span className="xl:inline">홍순협</span>
+            <h1 className="text-2xl sm:text-4xl text-gray-900">
+              <span className="text-green-700 mr-4">변호사</span>
+              <span>홍순협</span>
             </h1>
             <h2 className="text-yellow-900">
               믿고 기댈 수 있는 든든한 법률파트너

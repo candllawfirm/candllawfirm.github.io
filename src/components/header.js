@@ -7,8 +7,8 @@ const Header = ({ siteTitle }) => (
   <header className="bg-gray-200 p-5 shadow-md fixed w-screen z-50 opacity-90">
     <div className="flex justify-between items-center">
       <Link to="/">
-        <div className="flex">
-          <img src={logo} alt="logo-tree" width="50" class="inline m-0" />
+        <div className="flex items-center">
+          <img src={logo} alt="logo-tree" width="50" class="m-0" />
           <div className="text-xs">
             CARE & LOYALTY
             <br />
