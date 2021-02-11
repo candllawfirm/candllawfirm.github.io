@@ -3,26 +3,21 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import OfficeImage from "../images/sample-1.jpg"
+import OfficeImage from "../images/office_room.jpg"
 import Lawyer from "../components/lawyer"
 import WorkFields from "../components/workfields"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <section className="width-screen">
+    <section className="width-screen overflow-hidden">
       <figure className="m-0">
-        <img
-          src={OfficeImage}
-          alt="office"
-          className="m-0 h-screen sm:h-auto"
-        />
-        <figcaption class="absolute top-2/4 left-2/4 sm:left-3/4 text-lg text-white">
-          <div>
-            <h1>LAW OFFICE C&L</h1>
-          </div>
-          <div>
-            <h1>법률사무소 씨앤엘</h1>
+        <img src={OfficeImage} alt="office" className="m-0" />
+        <figcaption className="absolute top-44 left-1/2 sm:top-1/2 lg:top-3/4 lg:left-2/3">
+          <div className="text-lg sm:text-xl lg:text-4xl text-white font-bold">
+            LAW OFFICE C&L
+            <br />
+            법률사무소 씨앤엘
           </div>
         </figcaption>
       </figure>
